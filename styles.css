@@ -1,0 +1,41 @@
+ /* html {
+     background: #018DED;
+     background-size: cover;
+     text-align: center;
+     font-size: 10px;
+ } */
+
+ body {
+     background: #018DED;
+     text-align: center;
+     margin: 0;
+     display: flex;
+     /* flex: 1; */
+     min-height: 100vh;
+     align-items: center;
+ }
+
+ .clock {
+     width: 200px;
+     height: 200px;
+     border: 10px solid white;
+     border-radius: 50%;
+     margin: 50px auto;
+ }
+
+ .clock-body {
+     position: relative;
+     transform: translateY(-3px);
+     width: 100%;
+     height: 100%;
+ }
+
+ .sec-hand,
+ .in-hand,
+ .hour-hand {
+     background: black;
+     height: 2px;
+     top: 50%;
+     width: 50%;
+     position: absolute;
+ }
